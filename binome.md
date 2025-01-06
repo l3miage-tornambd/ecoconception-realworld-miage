@@ -1,9 +1,11 @@
-Inscrivez ici le nom de votre binôme 
+Inscrivez ici le nom de votre binôme
 
 Propriétaire repo git :
-- Nom : 
-- Prénom :
+
+- Nom : Cormier
+- Prénom : Levi
 
 Binome :
-- Nom :
-- Prénom :
+
+- Nom : Tornambé
+- Prénom : Damien
