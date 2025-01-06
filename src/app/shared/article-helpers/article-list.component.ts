@@ -29,7 +29,7 @@ export class ArticleListComponent implements OnDestroy {
   set config(config: ArticleListConfig) {
     if (config) {
       this.query = config;
-      this.currentPage = 1;
+      // this.currentPage = 1;
       this.runQuery();
     }
   }
@@ -63,11 +63,7 @@ export class ArticleListComponent implements OnDestroy {
         this.loading = LoadingState.LOADED;
         this.results = data.articles;
 
-        // Used from http://www.jstips.co/en/create-range-0...n-easily-using-one-line/
-        this.totalPages = Array.from(
-          new Array(Math.ceil(data.articlesCount / this.limit)),
-          (val, index) => index + 1
-        );
+        console.log("Nombre d'articles : " + this.results.length);
       });
   }
 }
